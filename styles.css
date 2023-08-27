@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #222;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.change {
+  color: aqua;
+}
+
+#fetchJokeButton {
+  border: 2px solid rgb(255, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  background-color: rgb(85, 76, 0);
+}
+
+#jokeText {
+  margin-top: 40px;
+  font-weight: 500;
+  color: #00ff00;
+  font-style: italic;
+  font-size: 19px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: columns;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
